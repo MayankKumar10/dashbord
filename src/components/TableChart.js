@@ -20,9 +20,9 @@ export default function TableChart() {
                 <Table style={{width:'50%', justifyContent:'center' }} size="small">
                     <TableHead>
                         <TableRow>
-                            <TableCell> <TextField value={subData['sub']} onChange={(e)=>setSubData({...subData, "sub" : e.target.value})} label="Employee Name" margin="normal" variant="outlined" color="secondary" ></TextField> </TableCell>
-                            <TableCell> <TextField value={subData['sem']} onChange={(e)=>setSubData({...subData, "sem" : e.target.value})}label="Performance / 10" margin="normal" variant="outlined" color="secondary" ></TextField> </TableCell>
-                            <TableCell> <Button variant="contained" onClick={()=>submitData(subData)} color="primary"> Add Employee</Button> </TableCell>
+                            <TableCell> <TextField value={subData['sub']} onChange={(e)=>setSubData({...subData, "sub" : e.target.value})} label="Top Orders In City" margin="normal" variant="outlined" color="secondary" ></TextField> </TableCell>
+                            <TableCell> <TextField value={subData['sem']} onChange={(e)=>setSubData({...subData, "sem" : e.target.value})}label="Orders Detail / 10" margin="normal" variant="outlined" color="secondary" ></TextField> </TableCell>
+                            <TableCell> <Button variant="contained" onClick={()=>submitData(subData)} color="primary"> Search Results</Button> </TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>

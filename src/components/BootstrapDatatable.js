@@ -107,7 +107,7 @@ const BootstrapDatatable = () => (
         <Table.HeaderCell><sup>Top five user tables</sup> User Name</Table.HeaderCell>
         <Table.HeaderCell>Total Amount</Table.HeaderCell>
         <Table.HeaderCell>Total Quantity</Table.HeaderCell>
-        <Table.HeaderCell>User Name</Table.HeaderCell> 
+        <Table.HeaderCell>City</Table.HeaderCell> 
       </Table.Row>
     </Table.Header>
 
@@ -155,7 +155,7 @@ const BootstrapDatatable = () => (
         <Table.HeaderCell><sup>Bottom five user tables</sup> User Name</Table.HeaderCell>
         <Table.HeaderCell>Total Amount</Table.HeaderCell>
         <Table.HeaderCell>Total Quantity</Table.HeaderCell>
-        <Table.HeaderCell>User Name</Table.HeaderCell> 
+        <Table.HeaderCell>City</Table.HeaderCell> 
       </Table.Row>
     </Table.Header>
 
