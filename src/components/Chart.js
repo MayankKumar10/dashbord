@@ -28,7 +28,7 @@ export default function Chart(data) {
                         maintainAspectRatio : false,
                         title:{
                         display:true,
-                        text:'Employee Performance Chart',
+                        text:'Orders Performance Chart',
                         fontSize:25,
                         },
                         scales: {
